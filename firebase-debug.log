@@ -1,0 +1,75 @@
+[debug] [2018-05-07T14:40:44.462Z] ----------------------------------------------------------------------
+[debug] [2018-05-07T14:40:44.462Z] Command:       c:\program files\nodejs\node.exe C:\Users\gusta\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-05-07T14:40:44.462Z] CLI Version:   3.18.4
+[debug] [2018-05-07T14:40:44.462Z] Platform:      win32
+[debug] [2018-05-07T14:40:44.462Z] Node Version:  v8.11.1
+[debug] [2018-05-07T14:40:44.462Z] Time:          Mon May 07 2018 11:40:44 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-05-07T14:40:44.462Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-07T14:40:44.478Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-07T14:40:44.478Z] > authorizing via signed-in user
+[debug] [2018-05-07T14:40:44.478Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/sensoresskynet20181  
+  
+ Mon May 07 2018 11:40:44 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-05-07T14:40:45.328Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-07T14:40:45.344Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/sensoresskynet20181/tokens  
+  
+ Mon May 07 2018 11:40:45 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-05-07T14:40:46.110Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-07T14:40:46.110Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/sensoresskynet20181  
+  
+ Mon May 07 2018 11:40:46 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-05-07T14:40:47.080Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\gusta\Desktop\nodeserver'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-05-07T14:40:48.047Z] Fetching environment
+[debug] [2018-05-07T14:40:48.048Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/309715725082:getServerAppConfig  
+  
+ Mon May 07 2018 11:40:48 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-05-07T14:40:48.049Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/309715725082/clients/_:getWebAppConfig  
+  
+ Mon May 07 2018 11:40:48 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-05-07T14:40:48.628Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-07T14:40:48.628Z] Starting @google-cloud/functions-emulator
+[debug] [2018-05-07T14:40:48.681Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-05-07T14:40:50.865Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/sensoresskynet20181/us-central1/app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
