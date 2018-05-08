@@ -12,15 +12,20 @@ var ref = db.ref("/alertas/");
 const app = express();
 
 app.get('/timestamp', (request, response) => {
+   
+    var d = new Date(Date.now());
+
+    d.setHours(d.getHours() - 3);
+
     ref.push({
 
         sensor: "MK0",
         exibido: false,
-        tempo: new Date(Date.now()).toLocaleString()
+        tempo: d.toLocaleString()
 
     });
 
-    response.send('data: ' + new Date(Date.now()).toLocaleString());
+    response.send('data: ' + d.toLocaleString());
 });
 
 
