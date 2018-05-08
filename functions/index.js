@@ -15,6 +15,7 @@ app.get('/timestamp', (request, response) => {
     ref.push({
 
         sensor: "MK0",
+        exibido: false,
         tempo: new Date(Date.now()).toLocaleString()
 
     });
